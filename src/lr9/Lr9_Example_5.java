@@ -5,9 +5,9 @@ public class Lr9_Example_5 {
         try {
             System.out.println("0");
             throw new RuntimeException("ошибка");
-        } catch (NullPointerException e) { // неподходящий класс для перехвата исключения
-            System.out.println("1");
+        } catch (Exception e) { // изначально в примере NullPointerException - неподходящий класс
+            System.out.println("1 " + e);
         }
         System.out.println("2");
     }
-} // программа не работает!
+} // программа работает после замены NullPointerException на Exception

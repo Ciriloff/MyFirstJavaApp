@@ -10,7 +10,7 @@ public class Lr9_Example_12 {
             throw new IllegalArgumentException("Неверное число");
             }
         }catch (IllegalArgumentException e){
-            System.out.println(" " + e);
+            System.out.println("Ошибка " + e);
         }
     }
 
