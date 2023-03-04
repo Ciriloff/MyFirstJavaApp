@@ -6,6 +6,7 @@ public class Lr9_Example_13 {
             int l = args.length;
             System.out.println("размер массива = " + l);
             int h = 10 / l;
+            System.out.println("Значение h = " + h);
             args[l + l] = "10";
         }catch (ArithmeticException e){
             System.out.println("Деление на ноль");

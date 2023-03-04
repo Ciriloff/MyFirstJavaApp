@@ -3,6 +3,7 @@ package lr9;
 public class Lr9_Example_14 {
     public static void m(int x) throws ArithmeticException {
         int h = 10 / x;
+        System.out.println("Значение h = " + h);
     }
 
     public static void main(String[] args) {
